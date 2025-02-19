@@ -1,0 +1,12 @@
+
+[build] loading fasta file data/reference/gencode.v47.transcripts.fa.gz
+[build] k-mer length: 31
+[build] warning: clipped off poly-A tail (longer than 10)
+        from 6380 target sequences
+[build] warning: replaced 4 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+[build] building MPHF
+[build] creating equivalence classes ... 
+[build] target de Bruijn graph has k-mer length 31 and minimizer length 23
+[build] target de Bruijn graph has 1856961 contigs and contains 176942276 k-mers 
+

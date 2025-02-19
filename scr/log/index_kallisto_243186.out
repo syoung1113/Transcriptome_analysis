@@ -1,0 +1,26 @@
+Thu Jan 16 21:34:21 KST 2025
+make data/index_kallisto directory
+KmerStream::KmerStream(): Start computing k-mer cardinality estimations (1/2)
+KmerStream::KmerStream(): Start computing k-mer cardinality estimations (1/2)
+KmerStream::KmerStream(): Finished
+CompactedDBG::build(): Estimated number of k-mers occurring at least once: 176788115
+CompactedDBG::build(): Estimated number of minimizer occurring at least once: 43001376
+CompactedDBG::filter(): Processed 550344396 k-mers in 385659 reads
+CompactedDBG::filter(): Found 176782751 unique k-mers
+CompactedDBG::filter(): Number of blocks in Bloom filter is 1208514
+CompactedDBG::construct(): Extract approximate unitigs (1/2)
+CompactedDBG::construct(): Extract approximate unitigs (2/2)
+CompactedDBG::construct(): Closed all input files
+
+CompactedDBG::construct(): Splitting unitigs (1/2)
+
+CompactedDBG::construct(): Splitting unitigs (2/2)
+CompactedDBG::construct(): Before split: 1955058 unitigs
+CompactedDBG::construct(): After split (1/1): 1955060 unitigs
+CompactedDBG::construct(): Unitigs split: 3368
+CompactedDBG::construct(): Unitigs deleted: 0
+
+CompactedDBG::construct(): Joining unitigs
+CompactedDBG::construct(): After join: 1856961 unitigs
+CompactedDBG::construct(): Joined 98914 unitigs
+Thu Jan 16 21:44:20 KST 2025

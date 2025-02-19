@@ -1,0 +1,78 @@
+Settings:
+  Output files: "data/index_hisat2/hg38_genome.*.ht2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Local offset rate: 3 (one in 8)
+  Local fTable chars: 6
+  Local sequence length: 57344
+  Local sequence overlap between two consecutive indexes: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  data/reference/GRCh38.p14.genome.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:28
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:21
+  Time to read SNPs and splice sites: 00:00:00
+Using parameters --bmax 586922016 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 586922016 --dcv 1024
+Constructing suffix-array element generator
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering GFM loop
+Exited GFM loop
+fchr[A]: 0
+fchr[C]: 921201511
+fchr[G]: 1562389643
+fchr[T]: 2206253409
+fchr[$]: 3130250755
+Exiting GFM::buildToDisk()
+Returning from initFromVector
+Wrote 1047655084 bytes to primary GFM file: data/index_hisat2/hg38_genome.1.ht2
+Wrote 782562696 bytes to secondary GFM file: data/index_hisat2/hg38_genome.2.ht2
+Re-opening _in1 and _in2 as input streams
+Returning from GFM constructor
+Returning from initFromVector
+Wrote 1378971921 bytes to primary GFM file: data/index_hisat2/hg38_genome.5.ht2
+Wrote 796820544 bytes to secondary GFM file: data/index_hisat2/hg38_genome.6.ht2
+Re-opening _in5 and _in5 as input streams
+Returning from HierEbwt constructor
+Headers:
+    len: 3130250755
+    gbwtLen: 3130250756
+    nodes: 3130250756
+    sz: 782562689
+    gbwtSz: 782562690
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 0
+    eftabSz: 0
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 195640673
+    offsSz: 782562692
+    lineSz: 64
+    sideSz: 64
+    sideGbwtSz: 48
+    sideGbwtLen: 192
+    numSides: 16303390
+    numLines: 16303390
+    gbwtTotLen: 1043416960
+    gbwtTotSz: 1043416960
+    reverse: 0
+    linearFM: Yes
+Total time for call to driver() for forward index: 01:32:58

@@ -1,0 +1,29 @@
+Wed Jan 22 12:44:53 KST 2025
+rsem-extract-reference-transcripts data/index_rsem/index_rsem 0 data/reference/gencode.v47.basic.annotation.gtf None 0 data/reference/GRCh38.p14.genome.fa
+Parsed 200000 lines
+Parsed 400000 lines
+Parsed 600000 lines
+Parsed 800000 lines
+Parsed 1000000 lines
+Parsed 1200000 lines
+Parsed 1400000 lines
+Parsed 1600000 lines
+Parsed 1800000 lines
+Parsed 2000000 lines
+Parsed 2200000 lines
+Parsing gtf File is done!
+data/reference/GRCh38.p14.genome.fa is processed!
+158338 transcripts are extracted.
+Extracting sequences is done!
+Group File is generated!
+Transcript Information File is generated!
+Chromosome List File is generated!
+Extracted Sequences File is generated!
+
+rsem-preref data/index_rsem/index_rsem.transcripts.fa 1 data/index_rsem/index_rsem
+Refs.makeRefs finished!
+Refs.saveRefs finished!
+data/index_rsem/index_rsem.idx.fa is generated!
+data/index_rsem/index_rsem.n2g.idx.fa is generated!
+
+Wed Jan 22 12:45:29 KST 2025
